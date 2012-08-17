@@ -39,11 +39,7 @@ PRODUCT_COPY_FILES += \
     device/htc/vigor/ramdisk/init.vigor.rc:root/init.vigor.rc \
     device/htc/vigor/ramdisk/ueventd.vigor.rc:root/ueventd.vigor.rc \
     device/htc/vigor/ramdisk/fstab.vigor:root/fstab.vigor \
-    device/htc/vigor/ramdisk/init.vigor.usb.rc:root/init.vigor.usb.rc \
-    device/htc/vigor/ramdisk/sbin/gzip_recvy:root/sbin/gzip_recvy \
-    device/htc/vigor/ramdisk/sbin/htc_ebdlogd_recvy:root/sbin/htc_ebdlogd_recvy \
-    device/htc/vigor/ramdisk/sbin/logcat2_recvy:root/sbin/logcat2_recvy \
-    device/htc/vigor/ramdisk/sbin/mfgsrv:root/sbin/mfgsrv
+    device/htc/vigor/ramdisk/init.vigor.usb.rc:root/init.vigor.usb.rc
 
 # Vold
 PRODUCT_COPY_FILES += device/htc/vigor/configs/vold.fstab:system/etc/vold.fstab

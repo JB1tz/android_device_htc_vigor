@@ -81,6 +81,10 @@ gsm.operator.numeric=310012
 gsm.operator.iso-country=us
 ro.cdma.home.operator.alpha=Verizon
 ro.cdma.home.operator.numeric=310012
+keyguard.no_require_sim=true
+
+# Default ecclist
+ro.ril.oem.ecclist=911,*911,#911
 
 # For Verizon data retry configuration
 ro.cdma.data_retry_config=max_retries=infinite,0,0,60000,120000,480000,900000
