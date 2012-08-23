@@ -20,7 +20,7 @@
 /dev/pmem_camera*       0660    system      camera
 
 # DIAG device node is world readable/writable
-/dev/diag               0666    root        root
+/dev/diag               0660    system      qcom_diag
 
 # sensors
 /dev/akm8975_daemon     0640    compass     system
